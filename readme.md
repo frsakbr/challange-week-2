@@ -1,4 +1,4 @@
-1. Buat server menggunakan express js
+Buat server menggunakan express js
   ENDPOINT:
     method:   GET
     path:     /product
