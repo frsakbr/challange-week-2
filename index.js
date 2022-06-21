@@ -6,11 +6,11 @@ const port = 3000;
 
 app.use(express.json());
 app.get('/', (req, res) => {
-    res.send('Home')
+    res.status(200).json('Home')
 });
 
 app.get('/product', (req, res) => {
-    res.send(products)
+    res.status(200).json(products)
 });
 
 app.post('/product', (req, res) => {
